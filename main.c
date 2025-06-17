@@ -85,6 +85,7 @@ Database *get_input(Database *records, int *n, int *j) {
                free(records);
                return NULL;
             }
+                records = temp;
          }
          
          printf("\nENTER PATIENT INFORMATION\n");
